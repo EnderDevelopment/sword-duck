@@ -1,0 +1,12 @@
+name: DuckSword
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  duck:
+    description: Gives you the mighty Duck Sword.
+    usage: /duck
+permissions:
+  duck.sword:
+    description: Allows using the /duck command.
+    default: true
